@@ -5,4 +5,4 @@ from django.test import SimpleTestCase
 class DummySuccess(SimpleTestCase):
     def test_dummy_success(self):
         self.assertEqual(1 + 3, 4)
-      
+        self.assertEqual(1, 1)
